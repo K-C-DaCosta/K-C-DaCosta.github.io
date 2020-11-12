@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    </head>
+    <body>
+        <canvas id="fluffl" width="800" height="600"></canvas>
+        <script type="module">
+            import init from "./brick_demo.js";
+            async function run() {
+                var demo = await init();
+                console.log(demo);
+            }
+            run();
+        </script>
+    </body>
+</html>
